@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>dsNorthwind</DataSourceReference>
+      <CommandText>SELECT * FROM vOrderSum</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="OrderID">
+        <DataField>OrderID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OrderDate">
+        <DataField>OrderDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="Amount">
+        <DataField>Amount</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="CustomerID">
+        <DataField>CustomerID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CompanyName">
+        <DataField>CompanyName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="RequiredDate">
+        <DataField>RequiredDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="ShippedDate">
+        <DataField>ShippedDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="ShipVia">
+        <DataField>ShipVia</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Freight">
+        <DataField>Freight</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ShipName">
+        <DataField>ShipName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipAddress">
+        <DataField>ShipAddress</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipCity">
+        <DataField>ShipCity</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipRegion">
+        <DataField>ShipRegion</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipPostalCode">
+        <DataField>ShipPostalCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ShipCountry">
+        <DataField>ShipCountry</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ContactName">
+        <DataField>ContactName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ContactTitle">
+        <DataField>ContactTitle</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Address">
+        <DataField>Address</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="City">
+        <DataField>City</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Region">
+        <DataField>Region</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PostalCode">
+        <DataField>PostalCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Country">
+        <DataField>Country</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Phone">
+        <DataField>Phone</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Fax">
+        <DataField>Fax</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Coordinate">
+        <DataField>Coordinate</DataField>
+        <rd:TypeName>Microsoft.SqlServer.Types.SqlGeography</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
