@@ -116,6 +116,13 @@
     <Content Include="sql\er_northwind_%28auszug%29.png" />
     <Content Include="sql\Northwind_update.sql" />
     <Content Include="sql\vCustomers.sql" />
+    <Content Include="sql\vOlapCategories.sql" />
+    <Content Include="sql\vOlapCustomers.sql" />
+    <Content Include="sql\vOlapOrderDetails.sql" />
+    <Content Include="sql\vOlapProducts.sql" />
+    <Content Include="sql\vOlapShippers.sql" />
+    <Content Include="sql\vOlapSuppliers.sql" />
+    <Content Include="sql\vOlapTime.sql" />
     <Content Include="sql\vOrderDetails.sql" />
     <Content Include="sql\vOrders.sql" />
     <Content Include="sql\vOrderSum.sql" />
